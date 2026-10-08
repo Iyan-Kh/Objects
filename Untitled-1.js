@@ -56,11 +56,53 @@
 //   createStudent("Alex", 11, 3.7)  → { name: "Alex", grade: 11, gpa: 3.7, isHonors: true }
 //   createStudent("Sam",  10, 2.9)  → { name: "Sam",  grade: 10, gpa: 2.9, isHonors: false }
 
-function createStudent(name, grade, gpa) {
+// function createStudent(name, grade, gpa) {
+ //  return{
+  //   name: name,
+ //    grade: grade,
+//     gpa: gpa,
+ //    IsHonors: gpa >= 3.5 ? true : false
+//   }
+
   // TODO: return an object with name, grade, gpa, and isHonors
-}
+// }
+
+// console.log(createStudent("Alex", 11, 3.5));
+// console.log(createStudent("Sam", 10, 2.9));
+// console.log(createStudent("Aaron Lu", 10, 3.6));
+
 
 // Test your function — uncomment when ready:
 // console.log("\n--- Problem 2 ---");
 // console.log(createStudent("Alex", 11, 3.7));
 // console.log(createStudent("Sam", 10, 2.9));
+
+// ====================================================================
+// PROBLEM 3 — Searching an Array of Objects
+// =================================================================
+// Write a function findByName(students, targetName) that:
+//   - Uses .find() to return the student object with that name
+//   - Returns null if no match is found
+//
+// Expected output:
+//   findByName(students, "ChenZee") → { name: "ChenZee", grade: 12, gpa: 3.5, isHonors: false }
+//   findByName(students, "Marcus")  → null
+
+function findByName(students, targetName) {
+  const students ={
+    name: "Aaron",
+    name: "noraA",
+   name: "Christopher Nolan",
+   name: "Stephen Spielberg",
+   name: "Ridley Scott",
+   name: "Christopher Claremont"
+  }
+  // TODO: use .find() to search by name
+  // Hint: .find() returns undefined if nothing matches — convert that to null using || (or) operator
+}
+
+// Test your function — uncomment when ready:
+// console.log("\n--- Problem 3 ---");
+console.log(findByName(students, "Christopher Claremont"));
+// console.log(findByName(students, "Jane"));
+// console.log(findByName(students, "Marcus"));
