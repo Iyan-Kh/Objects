@@ -2,65 +2,145 @@ const products = [
     {
         name: "Mango",
         group: "Fruit",
-        price: 5.00,
+        price: 3.42,
         image: "img",
         popularity: 225
     },
      {
         name: "Apple",
         group: "Fruit",
-        price: 5.00,
+        price: 2.89,
         image: "img",
         popularity: 122
     },
      {
         name: "Chicken",
         group: "Meat",
-        price: 10.00,
+        price: 22.64,
         image: "img",
         popularity: 120
     },
      {
         name: "Turkey",
         group: "Meat",
-        price: 12.00,
+        price: 72.53,
         image: "img",
         popularity: 334
     }, 
     {
         name: "Pineapple",
         group: "Fruit",
-        price: 8.00,
+        price: 6.53,
         image: "img",
         popularity: 445
     },
  {
         name: "Toast",
         group: "Grain",
-        price: 11.00,
+        price: 5.20,
         image: "img",
         popularity: 88
     },
  {
         name: "Bagel",
         group: "Grain",
-        price: 20.00,
+        price: 8.07,
         image: "img",
         popularity: 60
     },
  {
         name: "Broccoli",
         group: "Vegetable",
-        price: 5.00,
+        price: 3.50,
         image: "img",
         popularity: 80000
     },
  {
         name: "Carrot",
         group: "Vegetable",
-        price: 7.00,
+        price: 2.29,
         image: "img",
         popularity: 333
     },
+{
+        name: "Pear",
+        group: "Fruit",
+        price: 4.85,
+        image: "img",
+        popularity: 598
+    },
+{
+        name: "Tomato",
+        group: "Fruit",
+        price: 4.22,
+        image: "img",
+        popularity: 276
+    },
+{
+        name: "Cucumber",
+        group: "Fruit",
+        price: 4.31,
+        image: "img",
+        popularity: 638
+    },
+{
+        name: "Artichoke",
+        group: "Vegetable",
+        price: 4.23,
+        image: "img",
+        popularity: 799
+    },
+{
+        name: "Brussel Sprouts",
+        group: "Vegetable",
+        price: 4.54,
+        image: "img",
+        popularity: 823
+    },
+{
+        name: "Salmon",
+        group: "Meat",
+        price: 32.45,
+        image: "img",
+        popularity: 373
+    },
+{
+        name: "Steak",
+        group: "Meat",
+        price: 22.19,
+        image: "img",
+        popularity: 195
+    },
+{
+        name: "Prime Steak",
+        group: "Meat",
+        price: 94.82,
+        image: "img",
+        popularity: 1954
+    },
+    {
+        name: "Canned Tuna",
+        group: "Meat",
+        price: 2.47,
+        image: "img",
+        popularity: 268
+    },
+{
+        name: "Canned Crab",
+        group: "Meat",
+        price: 5.48,
+        image: "img",
+        popularity: 321
+    },
+    {
+        name: "Seabass",
+        group: "Meat",
+        price: 36.27,
+        image: "img",
+        popularity: 782
+    },
+
+
+
 ]
 
